@@ -1,14 +1,63 @@
 body {
     padding: 20px;
     background-color: #D7BABA;
+    background-image: url("photo/draft.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: 550px 20px
+
+    
   }
   
   h1 {
     color: white;
     text-align: center;
+    text-shadow: 2px 2px red;
+      
   }
   
   p {
     font-family: verdana;
     font-size: 20px;
   }
+  a {
+    color: brown;
+    /*it changes apperance of link in the pages*/
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    text-decoration: none;
+}
+a:visited {
+    color: chartreuse;
+}
+a:hover,
+a:focus {
+    color: tomato;
+    text-decoration: underline;
+}
+img {
+    border-radius: 50%;
+   /* -webkit-box-reflect: below;*/
+  /* -webkit-box-reflect: right;*/
+  }
+  video {
+    width: 120%;
+    height: auto;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
+  }
+  
+  @keyframes myfirst {
+    0%   {background: rgb(133, 53, 53); left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+  }
+  
