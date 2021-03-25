@@ -1,0 +1,57 @@
+h1{
+    background-color: grey;
+    color:yellow;
+    text-align: center;
+    background-image:url("photo/background.gif");
+    
+    text-decoration:underline black;
+}
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  font-size: small;
+  font-family: cursive;
+  border-bottom: solid;
+  }
+  olbold{
+      font-weight: bold;
+  }
+  ul{
+      border-bottom: solid;
+      font-size: small;
+  }
+  /* p{
+    background-color: yellow;
+  } */
+  h1.center {
+    text-align: left;
+    background-color: grey;
+    color:yellow;
+  }
+  h1.rightAlign {
+    text-align: left;
+    background-color: grey;
+    color:yellow;
+  }
+  p.parEmilis{
+      background-color:yellow;
+    font-family: cursive;
+  }
+  footer{
+
+    text-align: left;
+    font-family:Courier New;
+  }
+  h1.userComment{
+    text-align: left;
+    background-color: grey;
+    color:yellow;
+
+  }
+  h1.links{
+    text-align: left;
+    background-color: grey;
+    color:yellow;
+  }
+ 
