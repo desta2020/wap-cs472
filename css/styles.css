@@ -22,8 +22,8 @@ body {
   a {
     color: brown;
     /*it changes apperance of link in the pages*/
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
+    /* -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out; */
     transition: all 0.25s ease-out;
     text-decoration: none;
 }
