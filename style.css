@@ -47,9 +47,9 @@ img {
   div {
     width: 100px;
     height: 100px;
-    background: red;
+    /* background: red; */
     position: relative;
-    animation: myfirst 5s 2;
+    animation: myfirst 2s;
     animation-direction: alternate;
   }
   

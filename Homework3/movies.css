@@ -21,6 +21,7 @@ h1 {
   }
   body {
     background-image: url("background.png");
+   
   }
   .right_section {
     float: right;
@@ -81,6 +82,7 @@ ul{
     background-color: #A2B964;
     text-align: center;
     height: 10px;
+    
 }
 #valid{
     float: right;
