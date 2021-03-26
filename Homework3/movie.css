@@ -1,14 +1,14 @@
 #bannerimage {
-    width: 64%;
+    width: 78%;
     background-image: url(banner.png);
-    height: 30px;
+    height: 38px;
     background-color: purple;
     background-position: center;
     
   }
   #bodycolor{
     background-image: url("background.png");
-    width: 63.2%;
+    width: 77%;
     height: 1400px;
     position: absolute;
     /* bottom: 100px; */
@@ -22,8 +22,8 @@
   }
 #rottenimage{
     background-image: url("rottenbig.png");
-    width: 16%;
-    height: 75px;
+    width: 31.8%;
+    height: 80px;
     position: absolute;
     left: 148px;
     /* bottom: 100px; */
@@ -34,7 +34,8 @@
     width: 20%;
     height: 400px;
     position: absolute;
-    left: 350px;
+    left: 550px;
+    border:solid;
     /* bottom: 100px; */
     
 }
@@ -45,7 +46,7 @@ font-size: 500;
 color:red;
 }
 #robbenBorder{
-    width: 40;
+    width: 6;
     height: 5;
     border:  solid black;
     font-family: cursive;
@@ -64,4 +65,36 @@ h1{
     border:  solid black;
     font-family: cursive;
     font-size: small;
+}
+#freshTwo{
+    width: 3;
+    height: 50;
+    border:  solid black;
+    font-family: cursive;
+    font-size: small;
+    border:  solid black;
+    font-family: cursive;
+    font-size: small;
+    left: 210px;
+    position:absolute;
+}
+#parnumTwo{
+    width: 50;
+    height: 5;
+    border:  solid black;
+    font-family: cursive;
+    font-size: small;
+    border:  solid black;
+    font-family: cursive;
+    font-size: small;
+    left: 210px;
+    position:absolute;
+
+}
+#oveviewpara
+{
+    color: green;
+    border: solid;
+    font-size: x-small;
+    font-family: cursive;
 }
