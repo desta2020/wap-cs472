@@ -1,0 +1,67 @@
+#bannerimage {
+    width: 64%;
+    background-image: url(banner.png);
+    height: 30px;
+    background-color: purple;
+    background-position: center;
+    
+  }
+  #bodycolor{
+    background-image: url("background.png");
+    width: 63.2%;
+    height: 1400px;
+    position: absolute;
+    /* bottom: 100px; */
+    display: inline-block;
+    
+  }
+  #blackon{
+      text-align: center;
+      text-shadow: 2px 2px black;
+    
+  }
+#rottenimage{
+    background-image: url("rottenbig.png");
+    width: 16%;
+    height: 75px;
+    position: absolute;
+    left: 148px;
+    /* bottom: 100px; */
+   
+}
+#overviewImage{
+    background-image: url("overview.png");
+    width: 20%;
+    height: 400px;
+    position: absolute;
+    left: 350px;
+    /* bottom: 100px; */
+    
+}
+#parnum{
+text-align: center;
+font-weight: bolder;
+font-size: 500;
+color:red;
+}
+#robbenBorder{
+    width: 40;
+    height: 5;
+    border:  solid black;
+    font-family: cursive;
+    font-size: smaller;
+    
+
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+#fresh
+{
+    width: 45;
+    height: 5;
+    border:  solid black;
+    font-family: cursive;
+    font-size: small;
+}
