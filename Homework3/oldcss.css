@@ -1,0 +1,111 @@
+#bannerimage {
+    width: 78%;
+    background-image: url(bannerbg.png);
+    height: 38px;
+    background-color: purple;
+    background-position: center;
+    
+  }
+  body{
+      background-image: url("background.png");
+  }
+  .banner{
+      background-image: url("bannerbg.png");
+      text-align: center;
+      background-repeat: repeat;
+  }
+  #bodycolor{
+    background-image: url("background.png");
+    width: 77%;
+    height: 1400px;
+    position: absolute;
+    /* bottom: 100px; */
+    display: inline-block;
+    background-repeat: repeat;
+    
+  }
+  #blackon{
+      text-align: center;
+      text-shadow: 2px 2px black;
+    
+  }
+#rottenimage{
+    background-image: url("rottenbig.png");
+    width: 31.8%;
+    height: 80px;
+    position: absolute;
+    left: 148px;
+    /* bottom: 100px; */
+   
+}
+#overviewImage{
+    background-image: url("overview.png");
+    width: 20%;
+    height: 400px;
+    position: absolute;
+    left: 550px;
+    border:solid;
+    /* bottom: 100px; */
+    
+}
+#parnum{
+text-align: center;
+font-weight: bolder;
+font-size: 500;
+color:red;
+}
+#robbenBorder{
+    width: 6;
+    height: 5;
+    border:  solid black;
+    font-family: cursive;
+    font-size: smaller;
+    
+
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+#fresh
+{
+    width: 45;
+    height: 5;
+    border:  solid black;
+    font-family: cursive;
+    font-size: small;
+}
+#freshTwo{
+    width: 3;
+    height: 50;
+    border:  solid black;
+    font-family: cursive;
+    font-size: small;
+    border:  solid black;
+    font-family: cursive;
+    font-size: small;
+    left: 210px;
+    position:absolute;
+}
+#parnumTwo{
+    width: 50;
+    height: 5;
+    border:  solid black;
+    font-family: cursive;
+    font-size: small;
+    border:  solid black;
+    font-family: cursive;
+    font-size: small;
+    left: 210px;
+    position:absolute;
+
+}
+#oveviewpara
+{
+    color: green;
+    border: solid;
+    font-size: x-small;
+    font-family: cursive;
+    /* background-color: green; */
+}
+

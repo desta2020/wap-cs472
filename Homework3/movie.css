@@ -1,101 +1,87 @@
-#bannerimage {
-    width: 78%;
-    background-image: url(banner.png);
-    height: 38px;
-    background-color: purple;
-    background-position: center;
-    
-  }
-  #bodycolor{
-    background-image: url("background.png");
-    width: 77%;
-    height: 1400px;
-    position: absolute;
-    /* bottom: 100px; */
-    display: inline-block;
-    
-  }
-  #blackon{
-      text-align: center;
-      text-shadow: 2px 2px black;
-    
-  }
-#rottenimage{
-    background-image: url("rottenbig.png");
-    width: 31.8%;
-    height: 80px;
-    position: absolute;
-    left: 148px;
-    /* bottom: 100px; */
-   
-}
-#overviewImage{
-    background-image: url("overview.png");
-    width: 20%;
-    height: 400px;
-    position: absolute;
-    left: 550px;
-    border:solid;
-    /* bottom: 100px; */
-    
-}
-#parnum{
-text-align: center;
-font-weight: bolder;
-font-size: 500;
-color:red;
-}
-#robbenBorder{
-    width: 6;
-    height: 5;
-    border:  solid black;
-    font-family: cursive;
-    font-size: smaller;
-    
-
-}
-h1{
+h1 {
     text-align: center;
-    text-shadow: 2px 2px black;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+  }
+  .banner {
+    background-image: url("bannerbg.png");
+    background-repeat: repeat;
+    text-align: center;
+    height: 50px;
+  }
+  .container {
+    margin: auto;
+    border-width: 4px;
+    max-width: 800px;
+    border-color: gray;
+    border-radius: 10px;
+    border-style: solid;
+  }
+  body {
+    background-image: url("background.png");
+  }
+  .right_section {
+    float: right;
+    width: 250px;
+    background-color: #A2B964;
+    
+    padding: 10pt;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+  }
+  .left_section {
+    width: 550px;
+  }
+  .rbg {
+    background-image: url("rbg.png");
+    background-repeat: repeat;
+    height: 83px;
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+   
+  }
+  .col_review {
+    width: 47%;
+    float: left;
+  }
+p#rev{
+    font-size: 8;
+    font-weight: bold;
+    font-style: normal;
+    background-color: #E8DC9B;
+    border: 2px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+    padding: 8px;
 }
-#fresh
-{
-    width: 45;
-    height: 5;
-    border:  solid black;
-    font-family: cursive;
-    font-size: small;
+p{
+   
+    font-style: italic;
 }
-#freshTwo{
-    width: 3;
-    height: 50;
-    border:  solid black;
-    font-family: cursive;
-    font-size: small;
-    border:  solid black;
-    font-family: cursive;
-    font-size: small;
-    left: 210px;
-    position:absolute;
+#icon{
+    padding-right: 8px;
+    float: left;
 }
-#parnumTwo{
-    width: 50;
-    height: 5;
-    border:  solid black;
-    font-family: cursive;
-    font-size: small;
-    border:  solid black;
-    font-family: cursive;
-    font-size: small;
-    left: 210px;
-    position:absolute;
-
+#critic{
+    padding-right: 5px;
+    float: left;
 }
-#oveviewpara
-{
-    color: green;
-    border: solid;
-    font-size: x-small;
-    font-family: cursive;
-    /* background-color: green; */
+dl, dt, dd{
+    font-weight: bold;
+}
+ul{
+    list-style-type:none;
+    list-style-position: inherit;
+}
+.footer{
+    background-color: #A2B964;
+    text-align: center;
+    height: 10px;
+}
+#valid{
+    float: right;
 }
