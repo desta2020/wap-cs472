@@ -16,11 +16,18 @@
   
    <form action=""style="width: 500px;margin:auto">
     <div class="row mb-3">
+        <label for="urladdess">UrlAdress </label>
+        <input type="url" name="website" pattern="https?://.+" title="Pleaseenter a URL"
+        id="urladdess" placeholder="url" title="Enter vaalid url">
+    
     <label for="emailAdress">Email address</label>
        <input type="text" name="usename" id="emailAdress" class="form-control" placeholder="Enter email">
       <p>We'll never share your email with anyone else</p>
        <label for="password">Password</label>
-       <input type="password" name="password" id ="Password" class="form-control" placeholder="Password">
+       <input type="password" name="password" id ="Password" class="form-control" placeholder="Password" pattern="=(?=\d+)(?=[a-z]*)(?=[A-Z]*).{8,}" title="Must
+       contain at least one number and one uppercase and lowercase letter, and at least 8 or
+       more characters">
+      
        <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
         <label class="form-check-label" for="flexCheckDefault">
