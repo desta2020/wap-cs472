@@ -34,6 +34,19 @@
         #butSingOut{
             border: white;
         }
+        #cancellBtn{
+            color:red;
+            border:solid red;
+            margin: 30px;
+        }
+        #addBtn
+        {
+            color:lightskyblue;
+        }
+        .col{
+            margin: 10x;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
@@ -46,7 +59,7 @@
           <div class="container">
           
             <!-- <div class="row"> -->
-              <a  class="col" href="#"> Product</a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a  class="col" href="#"> Product</a>&nbsp;&nbsp;
               <a class="col" href="#">Suppile</a>
               <p id="helloId"> Hello!
               <button id="butSingOut" type="submit" class="btn btn-primary">Sign Out</button></p>
@@ -57,7 +70,7 @@
       
       </div>
      
-    <form action=""style="width: 500px;margin:auto">
+    <form action="GET"style="width: 1000px;margin:auto">
         <div id="newProduct">New Product Form</div>
     <form class="row g-3" >
         <div class="col-md-6">
@@ -66,7 +79,7 @@
         </div>
         <div class="col-md-6">
           <label for="inputPassword4" class="form-label">Quantity in Stock</label>
-          <input type="password" class="form-control" id="inputPassword4" placeholder="0">
+          <input type="text" class="form-control" id="inputPassword4" placeholder="0">
         </div>
         <div class="col-md-6">
             <label for="inputEmail4" class="form-label">Name</label>
@@ -80,7 +93,7 @@
                 <option value="2">UPSPS</option>
                 <option value="3">UPS</option>
               </select>
-            <input type="password" class="form-control" id="inputPassword4">
+            <input type="text" class="form-control" id="inputPassword4">
           </div>
           
               </label>
@@ -98,13 +111,13 @@
           </div>
         </div>
          <div id="buttonsHere">
-        <div class="col-sm-offset-6 col-sm-18">
+        <div class="col-sm-offset-8 col-sm-18">
             <button type="Reset" class="btn btn-default">Reset</button>
             <!-- <div class="col-sm-offset-2 col-sm-10"> -->
     
-             <button type="cancel" class="btn btn-default">Cancel</button>
+             <button type="cancel" class="btn btn-default" id="cancellBtn">Cancel</button>
               
-             <button type="reset" class="btn btn-default">Add Product</button>
+             <button type="submit" class="btn btn-default" id="addBtn">Add Product</button>
             </div>
         </div>
       </form>
