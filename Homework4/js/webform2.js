@@ -27,13 +27,13 @@ function reset() {
 }
 
 
-// document.getElementById("loginForm").addEventListener(
-//     "submit",
-//     function(event) {
-//         event.preventDefault();
-//         console.log(document.getElementById('exampleInputEmail1').value);
-//         console.log(document.getElementById('exampleInputPassword1').value);
-//         console.log(document.getElementById('exampleInputWebsite').value);
+ document.getElementById("loginForm").addEventListener(
+     "submit",
+     function(event) {
+         event.preventDefault();
+         console.log(document.getElementById('exampleInputEmail1').value);
+        console.log(document.getElementById('exampleInputPassword1').value);
+         console.log(document.getElementById('exampleInputWebsite').value);
 
-//     }
-// );
+     }
+ );
