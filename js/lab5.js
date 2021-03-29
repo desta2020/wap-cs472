@@ -47,32 +47,23 @@ function isVowel (char) {
   //4.Define a function sum() and a function multiply() that sums and multiplies (respectively)
   // all the numbers in an input array of numbers. For example, sum([1,2,3,4]) should return 10, and multiply([1,2,3,4]) should return 24.
   // Note/Hint: Do these using Imperative programming approach (i.e. for…loop or while…loop)
-  var array = [1, 2, 3, 4];
-    s = 0,
-    p = 1,
-    i;
-for (i = 0; i < array.length; i += 1) 
-   {
-    s += array[i];
-    p *= array[i];
-    }
-console.log('Sum : '+s + ' multiply:  ' +p); 
-//  function sum(numbers) {
-//      	var total = 0;
-//     	for (var i = 0; i < numbers.length; i++) {
-//     		total += numbers[i];
-//      	}
-//      	return total;
-//      }
+
+ function sum(numbers) {
+      	var total = 0;
+     	for (var i = 0; i < numbers.length; i++) {
+     		total += numbers[i];
+      	}
+      	return total;
+      }
     
-//      function multiply(numbers){
-//        var total = 1;
-//        for (var i=0; i<numbers.length; i++){
-//          total*=numbers[i];
-//        }
-//        return total;
-//      }
-//     console.log(sum(1,2,3,4));
+      function multiply(numbers){
+        var total = 1;
+        for (var i=0; i<numbers.length; i++){
+          total*=numbers[i];
+        }
+        return total;
+      }
+     console.log(sum(1,2,3,4));
 5// Define a function reverse() that computes the reversal of a string.
 // For example, reverse("jag testar") should return the string "ratset gaj".
 
