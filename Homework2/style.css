@@ -4,6 +4,7 @@ h1{
     text-align: center;
     background-image:url("../photo/background2.gif");
     text-decoration:underline black;
+   
 }
 ul.no-bullets {
     list-style-type: none;
