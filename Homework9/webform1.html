@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script defer src="./js/webform1.js"></script>
+
+
+  <title>Web Form 1</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <form id="loginForm" method="POST"> 
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Enter email" 
+          title="Enter proper a vaild email address" required>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Your Password"
+           title="Must
+        contain at least one number and one uppercase , and at least 10 or
+        more characters" required>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputWebsite">Website</label>
+        <input required type="url" class="form-control" id="exampleInputWebsite" pattern="https?://.+"
+          placeholder="Your website">
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" id="login-form-submit" class="btn btn-primary">Submit</button>
+      <!--  -->
+    </form>
+
+
+  </div>
+  <footer>
+    <a href="https://validator.w3.org/nu/?doc=https://desta2020.github.io/wap-cs472/">
+      <img src="/photo/w3c-html5-logo.png" alt="W3C HTML Validator"/></a>
+
+      
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss"
+              alt="Valid CSS!" />
+      </a>
+      
+    <div>Copyright &copy; 2021 - Desta</div>
+  </footer>
+
+</body>
+
+</html>
