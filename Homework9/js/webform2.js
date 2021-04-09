@@ -24,8 +24,9 @@ $(function () {
                 "Date": date
             };
             for (const key in obj) {
-                const txt = $("<p>").text(key + ": " + obj[key]);
+                const txt = $("<tr>").text(key + ": " + obj[key]);
                 $("#divProductData").append(txt);
+              
                 console.log(key +": " + obj[key]);
 
             }
