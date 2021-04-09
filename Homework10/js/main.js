@@ -1,8 +1,6 @@
 /**
  * main.js
  * 
- * @author O. Kalu
- * @since 2021-04-07
  */
 "use strict";
 

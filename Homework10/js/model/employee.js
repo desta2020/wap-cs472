@@ -1,8 +1,7 @@
 /**
  * employee.js
  * 
- * @author O. Kalu
- * @since 2021-4-7
+ 
  */
 "use strict";
 
